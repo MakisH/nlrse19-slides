@@ -425,7 +425,7 @@ Notes: Important to know (some of) your users!
   
   <small>Gerasimos Chourdakis (TUM)<br/> Benjamin Uekermann (TU/e)<br/> + many more</small>
   
-  <small><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</small>
+  <small><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br/>Get this presentation from <a href="https://github.com/MakisH/nlrse19-slides">GitHub</a>.</small>
 </div>
 
 <div style="margin-top:30pt">

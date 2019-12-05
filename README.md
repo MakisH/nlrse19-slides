@@ -6,6 +6,8 @@
 - Event: [NL-RSE19](https://nl-rse.org/events/NL-RSE19.html), Amsterdam, The Netherlands
 - Date: November 20, 2019
 
+[Start the presentation](https://makish.github.io/nlrse19-slides/)
+
 ## Abstract
 
 Contributors are vital for open-source projects and users are essential for a scientific project to have impact in society. Still, scientific projects often suffer from low visibility and trust, while only the core developers contribute.
