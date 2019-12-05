@@ -222,7 +222,7 @@ Notes:
 
 ## preCICE ecosystem
 
-<img data-src="images/precice-overview.svg" style="border:none; box-shadow:none">
+<img data-src="screenshots/ecosystem.png" style="border:none; box-shadow:none">
 
 Notes:
 - If you remember one thing
@@ -242,23 +242,7 @@ Notes:
 
 ## Followers: interested in preCICE
 
-<canvas data-chart="line" data-chart-src="data/followers.csv">
-<!-- 
-{
-"data" : {
-"datasets" : [
-  { "borderColor": "#0065BD", "backgroundColor": "#0065BD", "fill":"false" },
-  { "borderColor": "#E37222", "backgroundColor": "#E37222", "fill":"false" },
-  { "borderColor": "#98C6EA", "backgroundColor": "#98C6EA", "fill":"false" },
-  { "borderColor": "#A2AD00", "backgroundColor": "#A2AD00", "fill":"false" }
-  ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": false }], "yAxes": [{ "stacked": false }] } },
-"options": {"scales": {"yAxes": [{"ticks": { "beginAtZero": true }}]}},
-"options": {"animation": false}
-}
--->
-</canvas>
+<img data-src="screenshots/followers.png" style="border:none; box-shadow:none">
 
 scale max: 160 (cumulative)
 
@@ -268,20 +252,7 @@ vvv
 
 ## Traffic: discovered preCICE
 
-<canvas data-chart="line" data-chart-src="data/views.csv">
-<!-- 
-{
-"data" : {
-"datasets" : [
-  { "borderColor": "#0065BD", "backgroundColor": "#0065BD", "fill":"false" }
-  ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": false }], "yAxes": [{ "stacked": false }] } },
-"options": {"scales": {"yAxes": [{"ticks": { "beginAtZero": true }}]}},
-"options": {"animation": false}
-}
--->
-</canvas>
+<img data-src="screenshots/visitors.png" style="border:none; box-shadow:none">
 
 scale max: 500 (per two weeks)
 
@@ -290,20 +261,7 @@ vvv
 
 ## Git clones: trying preCICE from source
 
-<canvas data-chart="line" data-chart-src="data/clones.csv">
-<!-- 
-{
-"data" : {
-"datasets" : [
-  { "borderColor": "#0065BD", "backgroundColor": "#0065BD", "fill":"false" }
-  ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": false }], "yAxes": [{ "stacked": false }] } },
-"options": {"scales": {"yAxes": [{"ticks": { "beginAtZero": true }}]}},
-"options": {"animation": false}
-}
--->
-</canvas>
+<img data-src="screenshots/clones.png" style="border:none; box-shadow:none">
 
 scale max: 120 (per two weeks, bots included)
 
@@ -311,22 +269,7 @@ vvv
 
 ## Binary package downloads
 
-<canvas data-chart="bar" data-chart-src="data/deb.csv">
-<!-- 
-{
-"data" : {
-"datasets" : [
-  { "stack": "deb", "borderColor": "#0065BD", "backgroundColor": "#0065BD", "fill":"false" },
-  { "stack": "deb", "borderColor": "#98C6EA", "backgroundColor": "#98C6EA", "fill":"false" },
-  { "stack": "deb", "borderColor": "#64A0C8", "backgroundColor": "#64A0C8", "fill":"false" }
-  ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": true }], "yAxes": [{ "stacked": true }] } },
-"options": {"scales": {"yAxes": [{"ticks": { "beginAtZero": true }}]}},
-"options": {"animation": false}
-}
--->
-</canvas>
+<img data-src="screenshots/packages.png" style="border:none; box-shadow:none">
 
 scale max: 400 (cumulative)
 
@@ -381,21 +324,7 @@ vvv
 ## Citations
 
 
-<canvas data-chart="line" data-chart-src="data/citations.csv" style="margin-top:25pt">
-<!-- 
-{
-"data" : {
-"datasets" : [
-  { "borderColor": "#0065BD", "backgroundColor": "#0065BD", "fill":"false" },
-  { "borderColor": "#98C6EA", "backgroundColor": "#98C6EA", "fill":"false" }
-  ]
-},
-"options": { "responsive": true, "scales": { "xAxes": [{ "stacked": false }], "yAxes": [{ "stacked": false }] } },
-"options": {"scales": {"yAxes": [{"ticks": { "beginAtZero": true }}]}},
-"options": {"animation": false}
-}
--->
-</canvas>
+<img data-src="screenshots/citations.png" style="border:none; box-shadow:none">
 
 [Main preCICE paper](https://www.sciencedirect.com/science/article/abs/pii/S0045793016300974) (2016): 61 total citations
 
