@@ -31,7 +31,11 @@ and go to [localhost:8000](http://localhost:8000/) to see the slides.
 
 See section "[Export to PDF](https://github.com/hakimel/reveal.js/tree/33bed47daca3f08c396215415e6ece005970734a#pdf-export)" in the reveal.js README.
 
-I could not manage to print the chart.js plots. In the branch `nochartjs` I have replaced the chart.js chunks with screenshots of the same plots. Similarly, I have replaced the "preCICE ecosystem" svg plot with a raster version.
+[Decktape](https://github.com/astefanutti/decktape) does a marvelous job converting this presentation to PDF, even the chart.js plots. Get the Docker image (see Decktape README) and run (for localhost):
+
+```bash
+docker run --rm -t --net=host -v `pwd`:/slides astefanutti/decktape -s 1024x768 http://localhost:8000 slides.pdf
+```
 
 ## License & more
 
