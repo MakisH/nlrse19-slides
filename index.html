@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Creating a community of contributors for scientific open-source projects: The preCICE case</title>
+
+		<meta name="description" content="Talk at NL-RSE19">
+		<meta name="author" content="Gerasimos Chourdakis">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		
+		<!-- Overall slides theme -->
+		<link rel="stylesheet" href="css/theme/makis.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style>
+		.container{
+		    display: flex;
+		}
+		.col{
+		    flex: 1;
+		}
+		</style>
+
+		<!-- FontAwesome -->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<style> .reveal i.fa { font-family:FontAwesome; font-style: normal; } </style>
+	</head>
+
+	<body>
+	<div class="theme-font-montserrat theme-color-white-blue" style="width: 100%; height: 100%;">
+	<div class="reveal">
+	<div class="slides">
+		
+		<!-- Title slide -->
+		<section>
+			<h1>Creating a<br/><span style="color:#0065BD">community of contributors</span> for<br/> scientific open-source projects</h1>
+			<h2>The <span style="color:#0065BD">preCICE</span> case</h2>
+			<div style="margin-top:50pt">
+				<div>
+					<small>Gerasimos Chourdakis, Technical University of Munich<br/><a href="https://www5.in.tum.de/wiki/index.php/Gerasimos_Chourdakis">www5.in.tum.de/~chourdak</a></small>
+				</div>
+				<div style="margin-top:20pt">
+					<small>Benjamin Uekermann, Eindhoven University of Technology</small>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Main content -->
+		<section 	data-markdown="content.md" data-separator-vertical="vvv">
+		</section>
+	</div>
+	</div>
+	</div>
+	
+	<script src="js/reveal.js"></script>
+	<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				center: true,
+				controls: true,
+				controlsTutorial: false,
+				progress: true,
+				slideNumber: false,
+				center: true,
+				hash: true,
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+				backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
+				defaultTiming: 50,
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					// Interpret Markdown in <section> elements
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// Syntax highlight for <code> elements
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					// Search
+					{ src: 'plugin/search/search.js', async: true },
+					// Zoom in and out with Alt+click
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					// Speaker notes
+					{ src: 'plugin/notes/notes.js', async: true },
+					// MathJax
+					{ src: 'plugin/math/math.js', async: true },
+					// Chart
+					{ src: 'plugin/chart/Chart.min.js' },
+					{ src: 'plugin/chart/csv2chart.js' }
+				],
+				markdown: {
+					smartypants: true
+				}
+			});
+		</script>
+	</body>
+</html>

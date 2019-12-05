@@ -1,0 +1,4 @@
+Issues by externals were extracted using the advanced search of GitHub, excluding the known users.
+
+For example, for precice/precice:
+is:issue repo:precice/precice -author:fsimonis -author:uekerman -author:MakisH -author:BenjaminRueth -author:arusch -author:KyleDavisSA -author:huangq1234553 -author:IshaanDesai -author:floli -author:Dominanz -author:DavidSCN -author:micheltakken -author:SummerDave -author:JihoYang -author:atotoun -author:saumiJ -author:scheufks
