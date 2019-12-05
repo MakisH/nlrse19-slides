@@ -31,6 +31,8 @@ and go to [localhost:8000](http://localhost:8000/) to see the slides.
 
 See section "[Export to PDF](https://github.com/hakimel/reveal.js/tree/33bed47daca3f08c396215415e6ece005970734a#pdf-export)" in the reveal.js README.
 
+I could not manage to print the chart.js plots. In the branch `nochartjs` I have replaced the chart.js chunks with screenshots of the same plots. Similarly, I have replaced the "preCICE ecosystem" svg plot with a raster version.
+
 ## License & more
 
 - License: [CreativeCommons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
