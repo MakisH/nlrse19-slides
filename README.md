@@ -6,7 +6,7 @@
 - Event: [NL-RSE19](https://nl-rse.org/events/NL-RSE19.html), Amsterdam, The Netherlands
 - Date: November 20, 2019
 
-[Start the presentation](https://makish.github.io/nlrse19-slides/)
+[Start the presentation](https://makish.github.io/nlrse19-slides/) - [Get the PDF](export/nlrse19-chourdakis.pdf)
 
 ## Abstract
 
